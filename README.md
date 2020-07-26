@@ -10,7 +10,7 @@ made given a particular pickup date.
 
 Considering that the query creates a heavy load on the database, the results are cache in Redis. 
 
-##Requirements
+## Requirements
 Build & Run 
 - OpenJDK 11+
 - Gradle
@@ -23,7 +23,7 @@ Run MySQL, the import SQL scripts & Redis
 Check Redis cache  
 `docker exec -it redis-cab redis-cli`
 
-##Environment Variables
+## Environment Variables
 - CAB_LISTEN_PORT (default 7000)
 - CAB_HOST_DB (default localhost)
 - CAB_LISTEN_PORT_DB (default 3306)
