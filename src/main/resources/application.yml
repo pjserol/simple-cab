@@ -1,0 +1,5 @@
+database:
+  url: jdbc:mysql://localhost/ny_cab_data?stringtype=unspecified
+  user: root
+  password: password
+  maxActiveConnections: 30
