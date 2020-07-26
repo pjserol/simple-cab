@@ -16,7 +16,7 @@ Build & Run
 - Gradle
 - Docker
 
-Run MySQL, the import SQL scripts & Redis  
+Run MySQL, import the schema + data of the SQL scripts & run Redis  
 `chmod +x scripts.sh`  
 `./scripts.sh`
 
