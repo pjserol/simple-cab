@@ -79,5 +79,6 @@ export env CAB_LISTEN_PORT_REDIS=6379
 ## Improvements
 - Handle exceptions (query param of medallion when empty)
 - Add elements in the cache on a thread (improve performance)
+- Set a timeout on the key in Redis (TTL)
 - Add error response format when something wrong
 - Add integration test
